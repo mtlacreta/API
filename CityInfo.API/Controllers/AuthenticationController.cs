@@ -91,15 +91,11 @@ namespace CityInfo.API.Controllers
         {
             // we don't have a user DB or table.  If you have, check the passed-through
             // username/password against what's stored in the database.
-            //
-            // For demo purposes, we assume the credentials are valid
-
-            // return a new CityInfoUser (values would normally come from your user DB/table)
             return new CityInfoUser(
                 1,
                 userName ?? "",
-                "Kevin",
-                "Dockx",
+                "Michael",
+                "LaCreta",
                 "Antwerp");
         }
     }
